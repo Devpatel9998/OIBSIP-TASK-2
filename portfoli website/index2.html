@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Developer - Portfolio</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Dev Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purlpe">Dev And I am a Web Developer</span>
+
+                <p>
+                    I am persuing my Bachlor of Engineering in INFORMATION TECHNOLOGY.
+                    I am fourth year student at VSITR Kadi. I am currently living in Nardipur Village.
+
+                </p>
+
+                <div>
+                    And I am a Passionate
+                </div>
+
+
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="imgs/img2.jpeg" alt="">
+            </div>
+        </section>
+        <section id="skills">
+            <div class="section-info">
+              <h1 style="color: white;">Skills</h1>
+              <p>Who I am?</p>
+            </div>
+            <div class="skills-row">
+              <div class="skills-left-col">
+                <p>
+                  I have good knowledge of computer languages like C, C++, Java, Python and also Web technologies like HTML, CSS, JavaScript. I also have knowledge of Operating System, Computer Networks, DataBase Management System, etc.
+                </p>
+                <button class="c-btn">Read More</button>
+              </div>
+              <div class="skills-right-col">
+                <div class="progress-div">
+                  <p>
+                    <span>HTML</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>80%</span>
+                  </p>
+                  <p>
+                    <span>CSS</span><br>
+                    <progress value="60" max="100"></progress>
+                    <span>60%</span>
+                  </p>
+                  <p>
+                    <span>JS</span><br>
+                    <progress value="70" max="100"></progress>
+                    <span>70%</span>
+                  </p>
+                  <p>
+                    <span>Python</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>80%</span>
+                  </p>
+                  <p>
+                    <span>Java</span><br>
+                    <progress value="70" max="100"></progress>
+                    <span>70%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          <section id="services">
+            <div class="section-info">
+              <h1>Services</h1>
+              <p>What We Provide?</p>
+            </div>
+        
+            <div class="services-row">
+              <div class="services-box">
+                <img src="imgs/b2.png" alt="">
+                <h2>Web Development</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, blanditiis. Quidem praesentium nemo consectetur id modi nesciunt incidunt omnis tempore vel, perspiciatis debitis molestias atque!
+                </p>
+              </div>
+              <div class="services-box">
+                <img src="imgs/b2.png" alt="">
+                <h2>Software Development </h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic doloribus rem pariatur iste quisquam? Omnis repellat atque labore fuga non?
+                </p>
+              </div>
+              <div class="services-box">
+                <img src="imgs/b2.png" alt="">
+                <h2>Python Development</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rem deleniti accusantium accusamus id recusandae exercitationem neque fuga cumque est.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section id="contact">
+            <div class="section-info" style="color: white;">
+              <h1>Get in Touch</h1>
+              <p style="color: black;">We are Available</p>
+            </div>
+            <div class="contact-row">
+              <div class="contact-left-col">
+                <img src="imgs/b3.png" alt="">
+              </div>
+              <div class="contact-right-col">
+                <form action="">
+                  <h2>Connect With Us!</h2>
+                  <input type="text" name="" placeholder="Name">
+                  <input type="email" placeholder="E-mail">
+                  <br>
+                  <textarea name="" id="" cols="40" rows="10" placeholder="Message"></textarea>
+                  <br>
+                  <button class="c-btn">Submit</button>
+                </form>
+              </div>
+            </div>
+          </section>
+          <section id="footer">
+            <h2>Developed by<br>Dev Patel</h2>
+            <div class="f-img">
+              <img src="imgs/icon1.png" alt="">
+              <img src="imgs/icon2.png" alt="">
+              <img src="imgs/icon4.png" alt="">
+              <img src="imgs/icon3.png" alt="">
+            </div>
+          </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer ,', 'Artificial Intelligence , ', 'Data science',],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>
